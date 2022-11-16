@@ -1,1 +1,39 @@
 hellowww there
+
+
+
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\Mayuri\Desktop\practice1-git> git init
+Initialized empty Git repository in C:/Users/Mayuri/Desktop/practice1-git/.git/
+PS C:\Users\Mayuri\Desktop\practice1-git> git add .
+PS C:\Users\Mayuri\Desktop\practice1-git> git commit -m "First Commit"
+[master (root-commit) 48ffd10] First Commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file.txt
+PS C:\Users\Mayuri\Desktop\practice1-git> git config --global user.name "MayuriCollege"
+PS C:\Users\Mayuri\Desktop\practice1-git> git config --global user.email "mayuri_thorat@moderncoe.edu.in"
+PS C:\Users\Mayuri\Desktop\practice1-git> git config --global user.password "Mayuri@2201"PS C:\Users\Mayuri\Desktop\practice1-git> git remote add origin https://github.com/MayuriCollege/practice1.git
+PS C:\Users\Mayuri\Desktop\practice1-git> git branch -M main
+PS C:\Users\Mayuri\Desktop\practice1-git> git push -u origin main
+remote: Permission to MayuriCollege/practice1.git denied to Mayuri2201.
+fatal: unable to access 'https://github.com/MayuriCollege/practice1.git/': The requested URL returned error: 403
+PS C:\Users\Mayuri\Desktop\practice1-git> git config --global user.name "MayuriCollege"
+PS C:\Users\Mayuri\Desktop\practice1-git> git config --global user.email "mayuri_thorat@moderncoe.edu.in"
+PS C:\Users\Mayuri\Desktop\practice1-git> git config --global user.password "Mayuri@2201"
+PS C:\Users\Mayuri\Desktop\practice1-git> git remote add origin https://github.com/MayuriCollege/practice1.git
+error: remote origin already exists.
+PS C:\Users\Mayuri\Desktop\practice1-git> git branch -M main
+PS C:\Users\Mayuri\Desktop\practice1-git> git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 235 bytes | 117.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/MayuriCollege/practice1.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\Mayuri\Desktop\practice1-git> 
